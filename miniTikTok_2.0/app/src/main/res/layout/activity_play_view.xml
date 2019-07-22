@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--tools:context=".play_view">-->
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/likeAnimation"
+        android:layout_width="378dp"
+        android:layout_height="362dp"
+        android:layout_alignTop="@+id/surfaceview"
+        android:layout_alignBottom="@+id/surfaceview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="258dp"
+        android:layout_marginBottom="111dp"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/likeanimation" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/stop"
+        android:layout_width="210dp"
+        android:layout_height="196dp"
+        android:layout_alignTop="@+id/surfaceview"
+        android:layout_alignBottom="@+id/surfaceview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="239dp"
+        android:layout_marginBottom="295dp"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/playstore" />
+
+
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/surfaceview"
+        android:layout_alignBottom="@+id/surfaceview"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/dinodance" />
+    <SurfaceView
+        android:id="@+id/surfaceview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+       />
+</RelativeLayout>

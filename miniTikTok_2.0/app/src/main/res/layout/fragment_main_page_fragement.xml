@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainPageFragement">
+
+    <Button
+        android:id="@+id/recordNowBtn"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/photo_camera"
+        />
+
+    <Button
+        android:id="@+id/refreshBtn"
+        android:layout_width="41dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/refresh_icon"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:layout_alignParentRight="true"
+        />
+
+    <!-- TODO: Update blank fragment layout -->
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+     <android.support.v7.widget.RecyclerView
+         android:id="@+id/recycle"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         ></android.support.v7.widget.RecyclerView>
+
+ </LinearLayout>
+
+
+</RelativeLayout>

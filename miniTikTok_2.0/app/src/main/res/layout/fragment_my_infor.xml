@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyInforFragment">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <LinearLayout
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:src="@drawable/image"
+                    android:scaleType="fitXY"
+                    android:layout_height="0dp" />
+                <TextView
+                    android:text="用户名：test\nID:99999"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp" />
+            </LinearLayout>
+            <TextView
+                android:text="我是练习时长两年半的练习生，喜欢唱、跳、rap"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:layout_weight="3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <TextView
+                android:layout_weight="1"
+                android:text="还没有个人简介"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+            <TextView
+                android:text="0 关注 0获赞 0粉丝"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+            <Button
+                android:id="@+id/suipaiBtn"
+                android:layout_weight="1"
+                android:text="随手拍"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>
